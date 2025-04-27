@@ -2,6 +2,7 @@ package com.portfolio.TaskManagerApplication.service;
 
 import com.portfolio.TaskManagerApplication.dto.CreateTaskRequest;
 import com.portfolio.TaskManagerApplication.dto.TaskResponse;
+import com.portfolio.TaskManagerApplication.exception.TaskNotFoundException;
 import com.portfolio.TaskManagerApplication.model.Task;
 import com.portfolio.TaskManagerApplication.model.User;
 import com.portfolio.TaskManagerApplication.repository.TaskRepository;

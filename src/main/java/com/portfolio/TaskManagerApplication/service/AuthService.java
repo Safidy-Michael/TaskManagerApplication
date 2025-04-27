@@ -3,6 +3,8 @@ package com.portfolio.TaskManagerApplication.service;
 import com.portfolio.TaskManagerApplication.dto.LoginRequest;
 import com.portfolio.TaskManagerApplication.dto.LoginResponse;
 import com.portfolio.TaskManagerApplication.dto.RegisterRequest;
+import com.portfolio.TaskManagerApplication.exception.UserAlreadyExistsException;
+import com.portfolio.TaskManagerApplication.model.User;
 import com.portfolio.TaskManagerApplication.repository.UserRepository;
 import com.portfolio.TaskManagerApplication.security.JwtService;
 import lombok.RequiredArgsConstructor;
